@@ -1,6 +1,6 @@
 
 // quantidade de acoes
-const AcaoItausa = 194
+const AcaoItausa = 244
 const AcaoAmbev = 200
 const AcaoUnipar = 35
 const AcaoBancoABC = 46
