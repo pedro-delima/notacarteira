@@ -6,7 +6,7 @@ const AcaoUnipar = 40
 const AcaoBancoABC = 46
 const AcaoGerdau = 142
 const AcaoSanepar = 37
-const AcaoAuren = 59
+const AcaoAuren = 107
 const AcaoTaesa = 71
 
 //nota de risco
