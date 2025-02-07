@@ -8,6 +8,7 @@ const AcaoGerdau = 192
 const AcaoSanepar = 37
 const AcaoAuren = 157
 const AcaoTaesa = 71
+const AcaoBancoBrasil = 20
 
 //nota de risco
 const notaItausa = 10
@@ -18,6 +19,7 @@ const notaGerdau = 6
 const notaSanepar = 9
 const notaAuren = 5
 const notaTaesa = 8
+const notaBancoBrasil = 8
 
 const form = window.document.querySelector('form')
 
@@ -33,6 +35,7 @@ form.addEventListener('submit', (e) => {
     const sanepar = Number(form.sanepar.value)
     const auren = Number(form.auren.value)
     const taesa = Number(form.taesa.value)
+    const bancoBrasil = Number(form.bancoBrasil.value)
 
     //calculos da nota media
 
@@ -51,6 +54,8 @@ form.addEventListener('submit', (e) => {
     const calAuren = auren * AcaoAuren / 100 * notaAuren
 
     const calTaesa = taesa * AcaoTaesa / 100 * notaTaesa
+
+    const calBancoBrasil = bancoBrasil * AcaoBancoBrasil / 100 * notaBancoBrasil
 
     const soma = calItausa + calAmbev + calUnipar + calBancoABC + calGerdau + calSanepar + calAuren + calTaesa
 
