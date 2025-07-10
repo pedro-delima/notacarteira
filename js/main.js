@@ -8,7 +8,7 @@ const AcaoGerdau = 192
 const AcaoSanepar = 37
 const AcaoAuren = 157
 const AcaoTaesa = 71
-const AcaoBancoBrasil = 125
+const AcaoBancoBrasil = 155
 
 //nota de risco
 const notaItausa = 10
