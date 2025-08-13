@@ -1,7 +1,7 @@
 
 // quantidade de acoes
 const AcaoItausa = 468
-const AcaoAmbev = 300
+const AcaoAmbev = 330
 const AcaoUnipar = 60
 const AcaoBancoABC = 46
 const AcaoGerdau = 192
@@ -67,4 +67,5 @@ form.addEventListener('submit', (e) => {
 
     e.preventDefault()
 })
+
 
