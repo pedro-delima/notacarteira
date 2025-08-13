@@ -6,7 +6,7 @@ const AcaoUnipar = 61
 const AcaoBancoABC = 46
 const AcaoGerdau = 307
 const AcaoSanepar = 37
-const AcaoAuren = 157
+const AcaoAuren = 160
 const AcaoTaesa = 71
 const AcaoBancoBrasil = 175
 
@@ -67,6 +67,7 @@ form.addEventListener('submit', (e) => {
 
     e.preventDefault()
 })
+
 
 
 
